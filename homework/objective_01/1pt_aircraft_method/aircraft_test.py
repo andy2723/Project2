@@ -11,4 +11,4 @@ import aircraft
 boeing = aircraft.Aircraft()
 boeing.model = "Boeing 727"
 boeing.capacity_limit = 189
-print(boeing.print_statistics())
+print(boeing.get_statistics())
