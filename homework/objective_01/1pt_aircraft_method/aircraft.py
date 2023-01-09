@@ -9,3 +9,11 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+class Aircraft:
+    def __init__(self):
+        self.model = 0
+        self.capacity_limit = 0
+    def print_statistics(self):
+        return f"The aircraft model {self.model} can hold up to {self.capacity_limit} passengers."
+
+

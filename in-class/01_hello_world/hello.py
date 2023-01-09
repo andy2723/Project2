@@ -2,7 +2,7 @@
 In-Class Exercise:  A "hello world" program.
 
 File Name: hello.py
-Name:      ?
+Name:      Andy
 Course:    CPTR 142
 """
 
