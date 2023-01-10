@@ -9,3 +9,4 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+class FoodLog

@@ -11,3 +11,14 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+class Point:
+    def __init__(self, x = 0, y = 0):
+        self.x = x
+        self.y = y
+
+    def get_distance_to(self, other_point):
+        distance = (((self.x - other_point.x) **2 + (self.y - other_point.y) **2) **.5)
+        return distance
+    
+    def __str__(self):
+        return "({},{})" .format(self.x,self.y)

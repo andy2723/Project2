@@ -13,3 +13,12 @@ Course:    CPTR 142
 
 
 # Your code goes here
+class Meeting:
+    def __init__(self, title, start = "12:00", end = "13:00"):
+        self.title = title
+        self.start = start
+        self.end = end
+    def __str__(self):
+        return "{} starts at {} and ends at {}" .format(self.title, self.start, self.end)
+            
+    
