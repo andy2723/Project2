@@ -9,3 +9,5 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+class ReadingList:
+    def __init__(self, list_of_books):

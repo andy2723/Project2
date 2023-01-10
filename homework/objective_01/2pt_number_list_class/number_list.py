@@ -11,3 +11,12 @@ Course:    CPTR 142
 
 
 # your code goes here
+class NumberList:
+    def __init__(self, numbers):
+        self.numbers = numbers
+
+    def get_even(self):
+        return [x for x in self.numbers if x % 2 == 0]
+
+    def get_odd(self):
+        return [x for x in self.numbers if x % 2 == 1]
