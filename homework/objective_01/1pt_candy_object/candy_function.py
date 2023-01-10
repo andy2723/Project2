@@ -8,5 +8,7 @@ Course:    CPTR 142
 """
 
 # Your code goes here
-def candy_info(name, grams, price):
-   return
+import candy
+def candy_info(name,sugar, price):
+    return candy.Candy(name, sugar, price)
+    
