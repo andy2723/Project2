@@ -9,3 +9,9 @@ Course:    CPTR 142
 
 
 # Your code goes here
+import employee
+
+class Administrator(employee.Employee):
+    def __init__(self, name, company, position):
+        super().__init__(name, company)
+        self.position = position
