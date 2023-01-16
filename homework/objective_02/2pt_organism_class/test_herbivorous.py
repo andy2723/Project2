@@ -8,3 +8,22 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+import unittest
+import organism
+from herbivorous import Herbivorous
+
+class Test_Herbivorous(unittest.TestCase):
+
+    def test_herbivorous(self):
+
+        herbivorous = Herbivorous("herbivorous")
+
+        self.assertTrue(hasattr(herbivorous, "species"))
+        self.assertTrue(hasattr(herbivorous, "multicellular"))
+        self.assertTrue(hasattr(herbivorous, "unicellular"))
+
+        self.assertTrue(callable(getattr(herbivorous, "feed", None)))
+
+        self.assertEqual(herbivorous.feed(),"I am a herbivorous species meaning I do not eat meat.")
+        self.assertEqual(herbivorous.multicellular, True)
+        self.assertEqual(herbivorous.unicellular, False)
