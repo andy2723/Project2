@@ -26,6 +26,6 @@ class Test_Herbivorous(unittest.TestCase):
 
         self.assertEqual(herbivorous.multicellular, True)
         self.assertEqual(herbivorous.unicellular, False)
-        self.assertEqual(herbivorous.species, "species")
+        self.assertEqual(herbivorous.species, "herbivorous")
         self.assertEqual(herbivorous.feed(), "I am a species species meaning I do not eat meat.")
                 
