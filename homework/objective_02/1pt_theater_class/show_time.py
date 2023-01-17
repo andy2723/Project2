@@ -13,6 +13,6 @@ from movie import Movie
 from theater import Theater
 
 class Show_Time(Movie, Theater):
-    def __init__(self,building_name, movie_name, rating):
+    def __init__(self, building_name, movie_name, rating):
         Theater.__init__(self, building_name)
         Movie.__init__(self, movie_name, rating)
