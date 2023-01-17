@@ -16,3 +16,8 @@ class Show_Time(Movie, Theater):
     def __init__(self, building_name, movie_name, rating):
         Theater.__init__(self, building_name)
         Movie.__init__(self, movie_name, rating)
+
+    def get_theater(self):
+        return Theater
+    def get_movie(self):
+        return Movie
