@@ -11,3 +11,11 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+from shapes import Shapes
+
+class Rectangle(Shapes):
+    def __init__(self, color):
+        super().__init__(color)
+
+    def __str__(self):
+        return f"The rectangle is {self.color}."

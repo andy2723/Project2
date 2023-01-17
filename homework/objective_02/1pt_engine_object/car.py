@@ -8,3 +8,12 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+import engine
+
+class Car:
+    def __init__(self, Engine):
+        self.engine = Engine
+
+    def __str__(self):
+        return f"The car has a {self.engine.cylinders} cylinder {self.engine.gas_type} engine under the hood!"
+
