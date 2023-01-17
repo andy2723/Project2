@@ -8,3 +8,12 @@ Course:    CPTR 142
 """
 
 # Your code goes here
+from bird import Bird
+
+class Falcon(Bird):
+    def __init__(self, gender, diet, feather_color, max_dive_speed):
+        super().__init__(gender, diet, feather_color)
+        self.max_dive_speed = max_dive_speed
+
+    def __str__(self):
+        return f"I am a {self.gender} bird with {self.feather_color} feathers, can fly at {self.max_dive_speed} speeds, and have a {self.diet} diet."
