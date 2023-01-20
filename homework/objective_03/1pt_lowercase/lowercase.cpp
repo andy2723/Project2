@@ -14,12 +14,13 @@
 
 int main() {
   // define your variables below
-char Upper_case;
+  char Upper_case;
   // gather user input using std::cin << variableName
-std::cout << "Enter a capital letter: ";
-std::cin >> Upper_case;
+  std::cout << "Enter a capital letter: ";
+  std::cin >> Upper_case;
   // print out the lowercase letter
-std::cout << "The lowercase letter is " << (char)tolower(Upper_case) << "." << std::endl;
+  std::cout << "The lowercase letter is " << (char)tolower(Upper_case) << "."
+            << std::endl;
 
   return 0;
 }
