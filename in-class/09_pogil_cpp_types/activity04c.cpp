@@ -2,8 +2,8 @@
 
 int main() {
   // assign two character variables
-  char charOne = ' ';
-  char charTwo = ' ';
+  char charOne = '%';
+  char charTwo = '=';
 
   // print out their "sum"
   char sum = charOne + charTwo;

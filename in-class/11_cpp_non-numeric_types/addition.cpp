@@ -15,7 +15,7 @@
 int main() {
 
   // define variables
-
+  
   // prompt for and set seed
 
   // prompt for and get number of digits
