@@ -18,6 +18,6 @@ double money_amount;
 std::cout << "Enter a dollar amount: $";
 std::cin >> money_amount;
   // print out the text
-std:: cout << "You entered: $" << money_amount << std::endl;
+std:: cout << "You entered $" << money_amount << std::endl;
   return 0;
 }
