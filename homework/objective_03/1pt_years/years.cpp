@@ -22,7 +22,7 @@ int main() {
   // print out the text
   years = days / 365;
   remaining_days = days % 365;
-  cout << days << " days is " << years << " year(s) followed by " << remaining_days
-       << " days." << endl;
+  cout << days << " days is " << years << " year(s) followed by "
+       << remaining_days << " days." << endl;
   return 0;
 }
