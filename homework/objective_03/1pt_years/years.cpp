@@ -11,6 +11,7 @@
 
 #include <iomanip>
 #include <iostream>
+using namespace std;
 
 int main() {
   // define your variables below
@@ -18,6 +19,6 @@ int main() {
   // gather user input using std::cin << variableName
 
   // print out the text
-
+  
   return 0;
 }
