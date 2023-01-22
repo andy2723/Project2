@@ -10,6 +10,8 @@
  */
 
 #include <iostream>
+#include <iomanip>
+
 
 int main() {
   // define your variables below
@@ -18,6 +20,8 @@ int main() {
   std::cout << "Enter a dollar amount: $";
   std::cin >> money_amount;
   // print out the text
+  std::cout << std::fixed;
+  std::cout << std::setprecision(2);
   std::cout << "You entered $" << money_amount << std::endl;
   return 0;
 }
