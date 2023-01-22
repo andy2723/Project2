@@ -9,9 +9,8 @@
  *
  */
 
-#include <iostream>
 #include <iomanip>
-
+#include <iostream>
 
 int main() {
   // define your variables below
