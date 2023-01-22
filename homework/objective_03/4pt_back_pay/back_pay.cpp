@@ -22,7 +22,7 @@ int main() {
   // Collect user input
   cout << "Enter current annual salary: ";
   cin >> annual_salary;
-  cout << "Enter the number of months for back pay: ";
+  cout << "Enter number of months for back pay: ";
   cin >> months_of_retro;
   // Perform calculations
   retro_pay = (annual_salary / 12) * months_of_retro * PAY_INCREASE;
@@ -31,7 +31,8 @@ int main() {
   // Print out the results
   cout << fixed << setprecision(2);
   cout << "\n";
-  cout << "I'll return new annual salary, monthly salary, and retroactive pay." << endl;
+  cout << "I'll return new annual salary, monthly salary, and retroactive pay."
+       << endl;
   cout << "New annual salary: $" << new_annual_salary << endl;
   cout << "New monthly salary: $" << new_monthly_salary << endl;
   cout << "Retroactive salary due: $" << retro_pay << endl;
