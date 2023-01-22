@@ -33,9 +33,9 @@ int main() {
   cout << "and on that " << noun << " he had a " << animal << ", E-I-E-I-O"
        << endl;
   cout << "with a " << sound << " " << sound << " here" << endl;
-  cout << "and a " << sound << " " << sound << " there, " << endl;
-  cout << "here a " << sound << ",there a " << sound << endl;
+  cout << "and a " << sound << " " << sound << " there," << endl;
+  cout << "here a " << sound << ", there a " << sound << endl;
   cout << "everywhere a " << sound << " " << sound << "," << endl;
-  cout << adjective << " Macdonald had a " << noun << " E-I-E-I-O." << endl;
+  cout << adjective << " Macdonald had a " << noun << ", E-I-E-I-O." << endl;
   return 0;
 }
