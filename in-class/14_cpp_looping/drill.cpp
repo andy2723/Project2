@@ -65,8 +65,8 @@ int main() {
   }
 
   if (operation != ' ') {
-    std::cout << setw(6) << x << std::endl;
-    std::cout << " " << operation << setw(4) << y << std::endl;
+    std::cout << std::setw(6) << x << std::endl;
+    std::cout << " " << operation << std::setw(4) << y << std::endl;
     std::cout << "------" << std::endl;
     std::cout << "= ";
     std::cin >> ans;
