@@ -1,4 +1,4 @@
-import player
+import Player
 
 
 
@@ -34,8 +34,8 @@ for card in deck:
     which_deck =  not which_deck
 
 #creates instances for the two players
-player_one = player.Player(name_one, player_one_deck)
-player_two = player.Player(name_one, player_two_deck)
+player_one = Player.Player(name_one, player_one_deck)
+player_two = Player.Player(name_one, player_two_deck)
 
 turns = 0
 while (len(player_one.deck) > 0) and (len(player_two.deck) > 0):
