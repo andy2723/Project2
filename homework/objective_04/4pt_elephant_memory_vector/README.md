@@ -9,26 +9,23 @@ No one knows why they elephant will not remember negative numbers.
 
 ## Problem Overview
 
-In this homework assignment you will write a program that collects user input and uses a switch to determine which output should displayed.
-
-## Scenario
-
-You have been hired by a television station to write a program to help make their broadcast schedule.
-Your program should accept the movie name and running time in minutes for three movies.
+In this homework assignment you will write a program that collects user input and prints the input back to the user.
 
 ## Solution Specifications
 
 Your solution to this problem must meet the following criteria.
 
-1. You must collect the type of zoo ticket (as a character) and the number of tickets desired by the user.
+1. You must collect the a series of numbers entered by the user.
 
-1. You must use the following statements: `switch`, `for` and `do` `while`.
+    * Stop collecting numbers when the user enters a negative number.
+    * Use a `do` `while` loop to collect user input.
+    * Collect the number in a vector.
 
-1. You must provide a default option on the switch statement that says "Invalid ticket selection".
+1. Print the entire list of numbers back to the user.
 
-1. You must calculate the total cost of the desired tickets.
+    * Use a `for` loop to print all the numbers entered.
 
-1. You must print the total to the user.
+1. You must use the following statements: `for` and `do` `while`.
 
 1. You must format your code using the "Format Document" command in your development environment.
 
@@ -38,7 +35,7 @@ Your solution to this problem must meet the following criteria.
 Enter a number: 12
 Enter a number: 35
 Enter a number: -1
-The elephant reponses with these numbers:
+The elephant responses with these numbers:
 12, 35
 ```
 

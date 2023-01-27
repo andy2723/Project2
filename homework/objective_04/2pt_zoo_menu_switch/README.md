@@ -9,20 +9,19 @@ Then enter the number desired tickets and display the cost for those tickets.
 
 In this homework assignment you will write a program that collects user input and uses a switch to determine which output should displayed.
 
-## Scenario
-
-You have been hired by a television station to write a program to help make their broadcast schedule.
-Your program should accept the movie name and running time in minutes for three movies.
-
 ## Solution Specifications
 
 Your solution to this problem must meet the following criteria.
 
-1. You must collect the type of zoo ticket (as a character) and the number of tickets desired by the user.
+1. You must collect user input for
+
+    * the type of zoo ticket (as a character) and
+    * the number of tickets desired by the user.
 
 1. You must use a `switch` statement.
 
-1. You must provide a default option on the switch statement that says "Invalid ticket selection".
+    * The switch statement must be used to switch between types of tickets selected by the user.
+    * You must include a default option on the switch statement that says "Invalid ticket selection".
 
 1. You must calculate the total cost of the desired tickets.
 
