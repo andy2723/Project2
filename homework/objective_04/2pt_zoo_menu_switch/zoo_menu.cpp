@@ -26,10 +26,10 @@ int main() {
   double ticket_price;
   double total_cost;
 
-  std::cout << "What type of zoo ticket: \n";
-  std::cout << " c - Child  $10 \n";
-  std::cout << " a - Adult  $15 \n";
-  std::cout << " s - Senior $12 \n";
+  std::cout << "What type of zoo ticket:\n";
+  std::cout << " c - Child  $10\n";
+  std::cout << " a - Adult  $15\n";
+  std::cout << " s - Senior $12\n";
   std::cin >> ticket_type;
 
   switch (ticket_type) {
@@ -43,6 +43,7 @@ int main() {
     ticket_price = 10.00;
     break;
   default:
+    std::cout << "How many tickets? \n";
     std::cout << "Invalid ticket selection." << std::endl;
     return 0;
   }
@@ -52,7 +53,7 @@ int main() {
 
   total_cost = ticket_price * ticket_count;
 
-  std::cout << "The cost will be " << std::fixed << std::setprecision(0)
+  std::cout << "The cost will be $" << std::fixed << std::setprecision(0)
             << total_cost << std::endl;
 
   return 0;
