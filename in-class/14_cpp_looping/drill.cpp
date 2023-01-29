@@ -16,6 +16,7 @@ int main() {
 
   // seed the random number generator
   srand(time(0));
+  char another;
 
   // generate two random numbers between 0 and 999 and answer variable
   int x = rand() % 1000;
@@ -79,6 +80,11 @@ int main() {
   } else {
     std::cout << "The correct answer is: " << correct << std::endl;
   }
+do {
+    std::cout << "Do you want another (y/n)? ";
+    std::cin >> another;
+
+} while (another == 'y');
 
   return 0;
 }
