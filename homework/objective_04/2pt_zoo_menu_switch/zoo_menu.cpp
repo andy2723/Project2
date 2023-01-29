@@ -44,7 +44,7 @@ int main() {
     break;
   default:
     std::cout << "How many tickets? \n";
-    std::cout << "Invalid ticket selection." << std::endl;
+    std::cout << "Invalid ticket selection" << std::endl;
     return 0;
   }
 
