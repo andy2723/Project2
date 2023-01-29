@@ -12,13 +12,13 @@ int main() {
   std::string name = "";
 
   // Collect user input
- std::cout << "Enter the name: ";
-std::getline(std::cin, name);
-while (name != "Quit") {
+  std::cout << "Enter the name: ";
+  std::getline(std::cin, name);
+  while (name != "Quit") {
     nameList.push_back(name);
     std::cout << "Enter the name: ";
     std::getline(std::cin, name);
-}
+  }
   // YOUR CODE GOES HERE
 
   // Print results
