@@ -32,7 +32,7 @@ int main() {
     }
   } while (number >= 0);
 
-  std::cout << "The elephant responses with these numbers: " << std::endl;
+  std::cout << "The elephant responses with these numbers:" << std::endl;
   for (int i = 0; i < numbers.size(); ++i) {
     std::cout << numbers[i];
     if (i != numbers.size() - 1) {
