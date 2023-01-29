@@ -33,9 +33,9 @@ int main() {
   } while (number >= 0);
 
   std::cout << "The elephant responses with these numbers:" << std::endl;
-  for (int i = 0; i < numbers.size(); ++i) {
+  for (int i = 0; i < (int)numbers.size(); ++i) {
     std::cout << numbers[i];
-    if (i != numbers.size() - 1) {
+    if (i != (int)numbers.size() - 1) {
       std::cout << ", ";
     }
   }
