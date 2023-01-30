@@ -30,8 +30,7 @@ int main() {
     int movieTimes[NUM_MOVIES];
 
     for (int i = 0; i < NUM_MOVIES; i++) {
-        std::cout << "Enter the movie title followed by running time in minutes (separated by a space):\n
-        ";
+        std::cout << "Enter the followed by running time in minutes (separated by a space):\n";
     }
 
     int totalTime = 0;
@@ -39,6 +38,15 @@ int main() {
         totalTime += movieTimes[i];
     }
 
-    std::cout << "The total running time of the three movies is: " << totalTime << " minutes." << std::endl;
+    int hours = totalTime / 60;
+    int minutes = totalTime % 60;
+
+    std::cout << "The total running time for " << movieTitles[0];
+    for (int i = 1; i < NUM_MOVIES; i++) {
+        std::cout << ", " << movieTitles[i];
+    }
+    std::cout << " is " << totalTime << " minutes." << std::endl;
+    std::cout << "That is " << hours << " hours and " << minutes << " minutes." << std::endl;
+
     return 0;
 }
