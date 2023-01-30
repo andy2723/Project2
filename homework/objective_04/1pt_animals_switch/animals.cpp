@@ -24,19 +24,19 @@ int main() {
   // YOUR CODE GOES HERE
   switch (animal) {
   case 1:
-    picked = "Deer";
+    picked = "deer";
     break;
   case 2:
-    picked = "Elephant";
+    picked = "elephant";
     break;
   case 3:
-    picked = "Lion";
+    picked = "lion";
     break;
   case 4:
-    picked = "Pig";
+    picked = "pig";
     break;
   case 5:
-    picked = "Zebra";
+    picked = "zebra";
     break;
   default:
     picked = "no animal";
