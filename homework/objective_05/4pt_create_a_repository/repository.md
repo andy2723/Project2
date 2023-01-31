@@ -1,0 +1,7 @@
+# Objective 6: Create A Repository
+
+Please add your repository URL to the following text link:
+
+[My New 142 Repository]()
+
+*To be graded your repository link must be in the parenthesis above.*
