@@ -87,6 +87,8 @@ Your solution should strive to meet the standards specified below as they form t
 
 ## Sample Runs
 
+The results will vary 
+
 Deck                 | Winner   | Turns
 ---------------------|----------|------:
 `deck_test_play.txt` | Player 2 | 7
