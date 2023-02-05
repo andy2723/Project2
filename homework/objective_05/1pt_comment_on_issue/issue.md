@@ -2,6 +2,6 @@
 
 Please replace the block text with your issue comment:
 
-> Place comment here.
+> The best playground is at Kiwanis park
 
 *To be graded your issue comment must be block text above.*
