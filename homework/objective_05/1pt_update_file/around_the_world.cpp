@@ -5,7 +5,8 @@
 #include <iostream>
 
 int main() {
-  for (int i = 2; i < 5; i++) {
+    int incremeter = 5;
+  for (int i = 10; i <= 20; i += incremeter) {
     std::cout << i << " times around the world" << std::endl;
   }
   return 0;
