@@ -87,7 +87,7 @@ Your solution should strive to meet the standards specified below as they form t
 
 ## Sample Runs
 
-The results will vary 
+The results will vary depending how the game is played. If you play similarly to how it is described on Wikipedia, then your results should look like:
 
 Deck                 | Winner   | Turns
 ---------------------|----------|------:
@@ -95,6 +95,13 @@ Deck                 | Winner   | Turns
 `deck_test_war.txt`  | Player 2 | 1
 `deck_a.txt`         | Player 2 | 85
 `deck_b.txt`         | Player 1 | 683
+
+If your game is designed so that when a player doesn't have enough cards in their hand during a war loses, your results should look like:
+
+Deck                 | Winner   | Turns
+---------------------|----------|------:
+`deck_a.txt`         | Player 2 | 47
+`deck_b.txt`         | Player 1 | 666
 
 ## Code Review
 
