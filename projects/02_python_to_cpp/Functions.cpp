@@ -5,7 +5,7 @@
 
 using namespace std;
 
-
+//Function is checking whether user input is a valid integer.
 bool isValidInt(string str) {
     if (str[0] == '-') {
         for (int i = 1; i < str.length(); i++) {
@@ -22,6 +22,7 @@ bool isValidInt(string str) {
     }
     return true;
 }
+//This function is prompting the user for input.
 int getNumber(string prompt) {
     while (true) {
         string strNumber;
@@ -33,6 +34,7 @@ int getNumber(string prompt) {
         cout << "Input is not a valid integer" << endl;
     }
 }
+//This function takes the two numbers and performs the calculations. 
 int multiply_and_explain(int numberA, int numberB) {
     int product = 0;
     vector <int> list1;

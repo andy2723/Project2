@@ -4,9 +4,10 @@
 #include <cmath>
 #include "Functions2.h"
 using namespace std;
+//I got a code review by Adam Taylor
 
 
-
+// Main program that calls the functions and outputs the product
 int main() {
     string response = "Y";
     while (response == "Y") {
