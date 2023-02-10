@@ -24,7 +24,7 @@ int main(){
     cin >> length;
     cout << "Room width (ft): ";
     cin >> width;
-    cout << "The cost of tile is $";
+    cout << "The cost of tile per square foot is $";
     cin >> cost;
     cout << endl;
 
