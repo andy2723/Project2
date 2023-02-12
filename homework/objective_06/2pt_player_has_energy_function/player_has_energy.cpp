@@ -8,11 +8,10 @@
 #include "player_has_energy.h"
 
 bool playerHasEnergy(int reduceEnergy, int &availableEnergy) {
-    if (availableEnergy - reduceEnergy > 0) {
-        availableEnergy -= reduceEnergy;
-        return true;
-    }
-    else {
-        return false;
-    }
+  if (availableEnergy - reduceEnergy > 0) {
+    availableEnergy -= reduceEnergy;
+    return true;
+  } else {
+    return false;
+  }
 }
