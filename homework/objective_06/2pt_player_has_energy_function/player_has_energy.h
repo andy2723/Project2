@@ -5,3 +5,9 @@
 #pragma once
 
 // TODO Add your code here
+#ifndef PlAYER_HAS_ENERGY_H
+#define PLAYER_HAS_ENERGY_H
+
+bool playerHasEnergy(int, int &);
+
+#endif
