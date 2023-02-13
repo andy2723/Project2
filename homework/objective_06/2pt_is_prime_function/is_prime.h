@@ -5,3 +5,9 @@
 #pragma once
 
 // TODO Add your code here
+#ifndef IS_PRIME_H
+#define IS_PRIME_H
+
+bool isPrime(int num);
+
+#endif

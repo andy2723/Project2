@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "enclosure_transfer.h"
 
 // Prototype
 void enclosureAssignment(std::vector<std::string> &assignments, int enclosure,

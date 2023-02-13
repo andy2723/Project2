@@ -3,6 +3,7 @@
 
 #include <vector>
 
-void transferAnimals(std::vector<int> &enclosure1, std::vector<int> &enclosure2);
+void transferAnimals(std::vector<int> &enclosure1,
+                     std::vector<int> &enclosure2);
 
 #endif
