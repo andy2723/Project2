@@ -19,7 +19,7 @@ void menu() {
     std::cout << "2) Add An Item" << std::endl;
     std::cout << "3) Remove An Item" << std::endl;
 
-    std::cout << "Enter your choice (1-3): ";
+    std::cout << "Option: Enter the name of the item: ";
     std::cin >> choice;
 
     switch (choice) {
