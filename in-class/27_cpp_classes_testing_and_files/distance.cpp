@@ -17,7 +17,7 @@ public:
     Walk(int milesWeek = 0, int feetWeek = 0);
     
     // TODO Create an operator overloading constructor to add miles and feet together
-
+   Walk operator+(Walk add);
     void print();
 };
 
@@ -27,7 +27,12 @@ Walk::Walk(int milesWeek, int feetWeek) {
 }
 
     // TODO Define an operator overloading constructor to add miles and feet together
-
+ Walk Walk::operator+(Walk add){
+        Walk total;
+        total.miles = this->miles + add.miles;
+        total.feet = this->feet + add.feet;
+        return total;
+    }
 void Walk::print() {
     std::cout << "Together they walked " << miles << " miles and " << feet << " feet." << std::endl;
 }
