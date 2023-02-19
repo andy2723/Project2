@@ -7,8 +7,8 @@
 #include <iostream>
 
 // TODO Add your code here
-#include <iostream>
 #include "menu.h"
+#include <iostream>
 
 void menu() {
   int choice;
@@ -23,24 +23,25 @@ void menu() {
     std::cin >> choice;
 
     switch (choice) {
-      case 1:
-        std::cout << "Viewing all items..." << std::endl;
-        // TODO: Implement code to view all items
-        break;
+    case 1:
+      std::cout << "Viewing all items..." << std::endl;
+      // TODO: Implement code to view all items
+      break;
 
-      case 2:
-        std::cout << "Adding an item..." << std::endl;
-        // TODO: Implement code to add an item
-        break;
+    case 2:
+      std::cout << "Adding an item..." << std::endl;
+      // TODO: Implement code to add an item
+      break;
 
-      case 3:
-        std::cout << "Removing an item..." << std::endl;
-        // TODO: Implement code to remove an item
-        break;
+    case 3:
+      std::cout << "Removing an item..." << std::endl;
+      // TODO: Implement code to remove an item
+      break;
 
-      default:
-        std::cout << "Invalid choice. Please enter a number between 1 and 3." << std::endl;
-        break;
+    default:
+      std::cout << "Invalid choice. Please enter a number between 1 and 3."
+                << std::endl;
+      break;
     }
 
   } while (choice != 0);
