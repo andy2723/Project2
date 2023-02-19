@@ -9,12 +9,12 @@
 
 class GuessingGame {
 public:
-    GuessingGame(int seed);
-    int guess(int num);
+  GuessingGame(int seed);
+  int guess(int num);
 
 private:
-    int answer;
-    int num_guesses;
+  int answer;
+  int num_guesses;
 };
 
 #endif
