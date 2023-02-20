@@ -4,17 +4,8 @@
 // #pragma once
 
 // TODO Add your code here
-#include <string>
+#include "animal.h"
 
-class Animal {
-public:
-  Animal(std::string name, int age) : name_(name), age_(age) {}
-
-  bool operator==(const Animal &other) const {
-    return name_ == other.name_ && age_ == other.age_;
-  }
-
-private:
-  std::string name_;
-  int age_;
-};
+bool operator==(const Animal& lhs, const Animal& rhs) {
+  return (lhs.getAge() == rhs.getAge() && lhs.getSpecies() == rhs.getSpecies());
+}
