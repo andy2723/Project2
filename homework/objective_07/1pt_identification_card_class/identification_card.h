@@ -10,10 +10,11 @@
 
 class IdentificationCard {
 public:
-    int getIdNumber() const;
-    void setIdNumber(int idNumber);
+  int getIdNumber() const;
+  void setIdNumber(int idNumber);
+
 private:
-    int idNumber;
+  int idNumber;
 };
 
 #endif
