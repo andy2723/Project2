@@ -3,7 +3,7 @@
  */
 #include "identification_card.h"
 
-int IdentificationCard::getIdNumber() { return idNumber; }
+int IdentificationCard::getIdNumber() const { return idNumber; }
 
 void IdentificationCard::setIdNumber(int newIdNumber) {
   idNumber = newIdNumber;

@@ -5,3 +5,15 @@
 #pragma once
 
 // TODO Add your code here
+#ifndef IDENTIFICATION_CARD_H
+#define IDENTIFICATION_CARD_H
+
+class IdentificationCard {
+public:
+    int getIdNumber() const;
+    void setIdNumber(int idNumber);
+private:
+    int idNumber;
+};
+
+#endif
