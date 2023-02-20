@@ -6,6 +6,6 @@
 // TODO Add your code here
 #include "animal.h"
 
-bool operator==(const Animal& lhs, const Animal& rhs) {
+bool operator==(const Animal &lhs, const Animal &rhs) {
   return (lhs.getAge() == rhs.getAge() && lhs.getSpecies() == rhs.getSpecies());
 }
