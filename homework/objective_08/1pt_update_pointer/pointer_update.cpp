@@ -4,4 +4,4 @@
 #include "pointer_update.h"
 
 // TODO
-void pointerUpdate(int newNumber, int *&ptrNumber) { ptrNumber = &newNumber; }
+void pointerUpdate(int &newNumber, int *&ptrNumber) { ptrNumber = &newNumber; }
