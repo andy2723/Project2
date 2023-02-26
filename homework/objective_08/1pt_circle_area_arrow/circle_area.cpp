@@ -5,3 +5,8 @@
 #include "circle.h"
 
 // Your code goes here
+
+double circleArea(Circle* circle) {
+  double area = circle->area();
+  return area;
+}
