@@ -8,7 +8,7 @@
 
 // Your code goes here
 void Charity::addDonation(double donation) {
-  double* newDonation = new double(donation);
+  double *newDonation = new double(donation);
   donations.push_back(newDonation);
 }
 Charity::~Charity() {
@@ -18,4 +18,3 @@ Charity::~Charity() {
     eachEle = nullptr;
   }
 }
-
