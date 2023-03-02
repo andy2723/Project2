@@ -5,4 +5,11 @@
 #include <string>
 // TODO Add your code here
 
-Enclosure::Enclosure(std::string type, int size) : type(type), size(size) {}
+#include "enclosure.h"
+#include <iostream>
+
+Enclosure::Enclosure(std::string enclosureType, int enclosureSize) {
+  type = enclosureType;
+  size = enclosureSize;
+}
+
