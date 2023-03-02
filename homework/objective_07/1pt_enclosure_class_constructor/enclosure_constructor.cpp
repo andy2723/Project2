@@ -12,4 +12,3 @@ Enclosure::Enclosure(std::string enclosureType, int enclosureSize) {
   type = enclosureType;
   size = enclosureSize;
 }
-
