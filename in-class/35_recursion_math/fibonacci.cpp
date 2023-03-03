@@ -12,8 +12,8 @@ int fibonacciByRecursion(int num);
 
 int main() {
   for (int i = 0; i <= 16; ++i) {
-    std::cout << setw(2) << i << " -> " << setw(3) << fibonacciByIteration(i)
-              << " or " << setw(3) << fibonacciByRecursion(i) << std::endl;
+    std::cout << std::setw(2) << i << " -> " << std::setw(3) << fibonacciByIteration(i)
+              << " or " << std::setw(3) << fibonacciByRecursion(i) << std::endl;
   }
   return 0;
 }

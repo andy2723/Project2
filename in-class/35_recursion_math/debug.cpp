@@ -9,7 +9,7 @@
 
 // function prototype
 // TODO: add indent string to end of function prototype
-int mySearch(vector<int> myNums, int left, int right, int target);
+int mySearch(std::vector<int> myNums, int left, int right, int target);
 
 int main() {
   srand(0);
@@ -33,7 +33,7 @@ int main() {
 }
 
 // TODO: add indent string to end of function header
-int mySearch(vector<int> myNums, int left, int right, int target) {
+int mySearch(std::vector<int> myNums, int left, int right, int target) {
   // TODO: add output showing boundaries
   int midPoint = (left + right) / 2;
   int midValue = myNums.at(midPoint);
