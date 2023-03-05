@@ -10,7 +10,6 @@ using namespace std;
 
 void printAnimals(string arr[], int size) {
   if (size == 0) {
-    // cout << "The list is empty" << endl;
     return;
   } else if (size == 1) {
     cout << arr[0] << endl;
