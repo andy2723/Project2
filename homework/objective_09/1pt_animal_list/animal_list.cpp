@@ -9,13 +9,14 @@
 using namespace std;
 
 void printAnimals(string arr[], int size) {
-    // Base case
-    if (size == 0) {
-        return;
-    }
-    // Recursive case
-    else {
-        printAnimals(arr, size-1);
-        cout << arr[size-1] << endl;
-    }
+  if (size == 0) {
+    // cout << "The list is empty" << endl;
+    return;
+  } else if (size == 1) {
+    cout << arr[0] << endl;
+    return;
+  } else {
+    printAnimals(arr, size - 1);
+    cout << arr[size - 1] << endl;
+  }
 }
