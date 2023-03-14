@@ -20,9 +20,18 @@ int main() {
   std::cin >> limit;
 
   // use the while loop to count
-
+// while (counter < limit) {
+//         counter++;
+//         sum += counter;
+// }
   /* YOUR CODE GOES HERE */
-
+// for (int counter = 0; counter < limit; counter++) {
+//         sum += counter;
+// }
+do {
+    counter ++;
+    sum += counter;
+}  while (counter <limit);
   // print out the final sum
   std::cout << std::endl
             << std::endl

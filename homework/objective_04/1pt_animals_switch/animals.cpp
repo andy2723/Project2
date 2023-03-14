@@ -22,7 +22,25 @@ int main() {
   // Use a switch statement to determine user's selection
 
   // YOUR CODE GOES HERE
-
+  switch (animal) {
+  case 1:
+    picked = "deer";
+    break;
+  case 2:
+    picked = "elephant";
+    break;
+  case 3:
+    picked = "lion";
+    break;
+  case 4:
+    picked = "pig";
+    break;
+  case 5:
+    picked = "zebra";
+    break;
+  default:
+    picked = "no animal";
+  }
   // print out the text
   std::cout << "You picked a " << picked << "." << std::endl;
 

@@ -15,14 +15,18 @@
 #include <cmath>
 #include <iostream>
 
-
 int main() {
-cout<<"Enter the cylindar radius: "         ;
-int a; std::cin>>a;
-     std::cout<<"Enter the cylindar height: "    ;
-int b;
-cin>>b; double c;
-                                 c = 3.14159;
-double d = 2*a*b*c+2*pow(2,a);
-cout >> "The surface area is: " << d << std::endl return 0; 
+  std::cout << "Enter the cylindar radius: " << std::endl;
+  int a;
+  std::cin >> a;
+
+  std::cout << "Enter the cylindar height: " << std::endl;
+  int b;
+  std::cin >> b;
+  
+  double c;
+  c = 3.14159;
+  double d = 2 * a * b * c + 2 * pow(2, a);
+  std::cout << "The surface area is: " << d << std::endl;
+  return 0;
 }

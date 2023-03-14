@@ -5,3 +5,9 @@
 #pragma once
 
 // TODO Add your code here
+#ifndef GREATEST_COMMON_DIVISOR_H
+#define GREATEST_COMMON_DIVISOR_H
+
+int greatestCommonDivisor(int num1, int num2);
+
+#endif

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math>
+#include <cmath>
 
 // class for a Point
 class Point {
@@ -19,7 +19,18 @@ private:
 };
 
 // class for a Circle
+class Circle: public Point {
+    public:
+    Circle(double radius);
+    double getRadius() {
+        return 0.00;
+    }
 
+
+    private:
+
+
+};
 int main() {
 
   // define a unit circle

@@ -27,7 +27,7 @@ int main() {
   double leftOver = money - perChild * children;
 
   // print out the results
-  std::cout << std::endl;
+
   std::cout << "Give each child $" << perChild;
   std::cout << " and keep $" << leftOver << " for yourself." << std::endl;
 

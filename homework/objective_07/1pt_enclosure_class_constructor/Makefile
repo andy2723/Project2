@@ -1,4 +1,4 @@
-SRCS = enclosure.cpp enclosure_constuctor.cpp
+SRCS = enclosure.cpp enclosure_constructor.cpp
 EXE = a.out
 SUBMITTY_CXXFLAGS = -I.
 

@@ -5,3 +5,11 @@
 #include <iostream>
 
 // TODO Add your code here
+#include "name_tag.h"
+#include <iostream>
+
+void homeZoo() {
+  printNameTag("Apple", 3, true);
+  printNameTag("Banana", 99);
+  printNameTag("Carrot");
+}

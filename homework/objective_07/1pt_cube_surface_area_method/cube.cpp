@@ -4,3 +4,4 @@
 #include "cube.h"
 
 // TODO implement your code here
+double Cube::getSurfaceArea() { return 6 * side * side; }

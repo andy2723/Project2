@@ -7,7 +7,7 @@ public:
   Die() { this->face = 1; }
   int getFace() const { return this->face; }
   int roll() {
-    this->face = rand() % 6 + 1;
+    this->face = rand() % 5 + 1;
     return this->face;
   }
 

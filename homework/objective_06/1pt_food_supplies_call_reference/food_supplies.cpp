@@ -4,16 +4,11 @@
 #include "food_supplies.h"
 #include <iostream>
 
-void updateFoodSupplies(int animals, double &hay, double &grain,
-                        double &water) {
-  hay -= animals * 3;
-  grain -= animals;
-  water -= animals * 1.5;
-}
+void oneDay(int numAnimals) {
+  double hay = 50;
+  double grain = 50;
+  double water = 50;
 
-void printFoodSupplies(double hay, double grain, double water) {
-  std::cout << "--<= Supply =>--" << std::endl;
-  std::cout << "    Hay: " << hay << std::endl;
-  std::cout << "  Grain: " << grain << std::endl;
-  std::cout << "  Water: " << water << std::endl;
+  updateFoodSupplies(numAnimals, hay, grain, water);
+  printFoodSupplies(hay, grain, water);
 }

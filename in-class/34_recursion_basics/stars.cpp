@@ -6,6 +6,7 @@
 // function prototypes
 void starsDown(int count);
 void starsUp(int count);
+void printStars(int count);
 
 int main() {
   // test recursive function
@@ -19,7 +20,24 @@ int main() {
 }
 
 // print count stars on one line, then one less on the next line
-void starsDown(int count) {}
+void starsDown(int count) {
+    if (count == 1){
+        printStars(1);
+        return;
+    }
+    else{
+        std::cout << "*" << std::endl;
+        printStars(count - 1);
+    }
+}
 
 // print count stars on one line, then one more on the next line
 void starsUp(int count) {}
+
+
+void printStars(int count) {
+    for (int i = 0; i < count; i++){
+        std::cout << "*";
+    }
+    std::cout << std::endl;
+}
