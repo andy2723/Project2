@@ -1,5 +1,6 @@
 import random
 import Player
+import deck
 
 class WarGame:
     def __init__(self, player1, player2):
